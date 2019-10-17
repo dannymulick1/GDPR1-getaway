@@ -1,12 +1,5 @@
 """
-Show the proper way to organize a game using the a game class.
-
-Sample Python/Pygame Programs
-Simpson College Computer Science
-http://programarcadegames.com/
-http://simpson.edu/computer-science/
-
-Explanation video: http://youtu.be/O4Y5KrNgP_c
+Getaway! The driving, wall avoiding game
 Author: Danny Mulick
 """
 
@@ -174,7 +167,7 @@ def main():
     size = [SCREEN_WIDTH, SCREEN_HEIGHT]
     screen = pygame.display.set_mode(size)
 
-    pygame.display.set_caption("My Game")
+    pygame.display.set_caption("Getaway")
     pygame.mouse.set_visible(False)
 
     # Create our objects and set the data
